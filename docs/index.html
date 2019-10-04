@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>People Watching Simulator</title>
+    <link rel="shortcut icon" href="./TemplateData/favicon.ico">
+    <link rel="stylesheet" href="./TemplateData/style.css">
+    <script src="./TemplateData/UnityProgress.js"></script>
+    <script src="./WebGL/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "WebGL/index.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div class="header">
+        <div class="title">People Watching Simulator</div>
+      </div>
+      <div id="unityContainer"></div>
+      <div class="footer">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="description">People Watching Simulator is the first in a series of relaxing toy experiments. A tongue-in-cheek experience one would get by sitting on any city corner, portable for when you can't.</div>
+        <div class="description">VR support available on iOS.</div>
+        <div class="description">Source code available <a href="https://github.com/yoiang/PeopleWatchingSimulator">here</a>.</div>
+        <div class="credits">
+          <div class="credit">Additional Models from:
+            <script>
+              function addAdditionalModelsListItem(
+                author, authorLink, asset, assetLink, container
+              ) {
+                const listNode = document.createElement("li")
+                listNode.innerHTML = '<a href="' + authorLink + '">' + author + '</a> - <a href="' + assetLink + '">' + asset + '</a>'
+                container.appendChild(listNode)
+              }
+            </script>
+            <ul id="creditsAdditionalModelsList">
+            </ul>
+            <script>
+              const creditsAdditionalModelsListNode = document.getElementById('creditsAdditionalModelsList')
+              if (!creditsAdditionalModelsListNode) {
+                console.log("Unable to find Additional Models List node, cannot add credits")
+              } else {
+
+                addAdditionalModelsListItem(
+                  "Nonecg",
+                  "https://assetstore.unity.com/publishers/5397",
+                  "NYC Block #6",
+                  "https://assetstore.unity.com/packages/3d/environments/urban/nyc-block-6-16272",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Jacek Jankowski",
+                  "https://assetstore.unity.com/publishers/5373",
+                  "Simple Modular Street Kit",
+                  "https://assetstore.unity.com/packages/3d/environments/urban/simple-modular-street-kit-13811",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Game-Ready Studios",
+                  "https://assetstore.unity.com/publishers/9338",
+                  "Old Rusted Bowl",
+                  "https://assetstore.unity.com/packages/3d/props/electronics/old-rusted-bowl-24448",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Layer Lab",
+                  "https://assetstore.unity.com/publishers/5232",
+                  "3D Bakery Object",
+                  "https://assetstore.unity.com/packages/3d/props/food/3d-bakery-object-17167",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Layer Lab",
+                  "https://assetstore.unity.com/publishers/5232",
+                  "Adorable 3D Food Set",
+                  "https://assetstore.unity.com/packages/3d/props/food/adorable-3d-food-set-31249",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Voxelguy",
+                  "https://assetstore.unity.com/publishers/42609",
+                  "5 animated Voxel animals",
+                  "https://assetstore.unity.com/packages/3d/characters/animals/5-animated-voxel-animals-145754",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Bobby Art",
+                  "https://assetstore.unity.com/publishers/24271",
+                  "Free Hot Dog Truck",
+                  "https://assetstore.unity.com/packages/3d/vehicles/free-hot-dog-truck-73014",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Lugia Games",
+                  "https://assetstore.unity.com/publishers/10643",
+                  "Skeleton - PBR - Animated - Low Poly",
+                  "https://assetstore.unity.com/packages/3d/characters/humanoids/skeleton-pbr-animated-low-poly-30659",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "AdvancedSkeleton",
+                  "https://assetstore.unity.com/publishers/24867",
+                  "Barbarian warrior",
+                  "https://assetstore.unity.com/packages/3d/characters/humanoids/barbarian-warrior-75519",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Explosive",
+                  "https://assetstore.unity.com/publishers/3415",
+                  "Fighter Pack Bundle FREE",
+                  "https://assetstore.unity.com/packages/3d/animations/fighter-pack-bundle-free-36286",
+                  creditsAdditionalModelsListNode
+                )
+
+                addAdditionalModelsListItem(
+                  "Myxerman",
+                  "https://assetstore.unity.com/publishers/29130",
+                  "Simple Cars Pack",
+                  "https://assetstore.unity.com/packages/3d/vehicles/land/simple-cars-pack-97669",
+                  creditsAdditionalModelsListNode
+                )
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
