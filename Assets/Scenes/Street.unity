@@ -32775,6 +32775,9 @@ MonoBehaviour:
   Speed: 0
   deviceOrientationScale: {x: 100, y: 100}
   dragScale: {x: 0.5, y: 0.5}
+  joystickLook: 1
+  joystickLookInvert: 0
+  joystickLookScale: {x: 80, y: 80}
 --- !u!20 &1778128774
 Camera:
   m_ObjectHideFlags: 0
