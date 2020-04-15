@@ -1,0 +1,13 @@
+# PeopleWatchingSimulator
+Relaxing Game Experiment 01
+
+People Watching Simulator is the first in a series of relaxing toy experiments. A tongue-in-cheek experience one would get by sitting on any city corner, portable for when you can't.
+
+  <div class="description">VR support available on iOS.</div>
+  <br/>
+  <div class="credits">
+    <div class="credit">Additional Models from:          
+      <ul id="creditsAdditionalModelsList">
+      <li><a href="https://assetstore.unity.com/publishers/5397">Nonecg</a> - <a href="https://assetstore.unity.com/packages/3d/environments/urban/nyc-block-6-16272">NYC Block #6</a></li><li><a href="https://assetstore.unity.com/publishers/5373">Jacek Jankowski</a> - <a href="https://assetstore.unity.com/packages/3d/environments/urban/simple-modular-street-kit-13811">Simple Modular Street Kit</a></li><li><a href="https://assetstore.unity.com/publishers/9338">Game-Ready Studios</a> - <a href="https://assetstore.unity.com/packages/3d/props/electronics/old-rusted-bowl-24448">Old Rusted Bowl</a></li><li><a href="https://assetstore.unity.com/publishers/5232">Layer Lab</a> - <a href="https://assetstore.unity.com/packages/3d/props/food/3d-bakery-object-17167">3D Bakery Object</a></li><li><a href="https://assetstore.unity.com/publishers/5232">Layer Lab</a> - <a href="https://assetstore.unity.com/packages/3d/props/food/adorable-3d-food-set-31249">Adorable 3D Food Set</a></li><li><a href="https://assetstore.unity.com/publishers/42609">Voxelguy</a> - <a href="https://assetstore.unity.com/packages/3d/characters/animals/5-animated-voxel-animals-145754">5 animated Voxel animals</a></li><li><a href="https://assetstore.unity.com/publishers/24271">Bobby Art</a> - <a href="https://assetstore.unity.com/packages/3d/vehicles/free-hot-dog-truck-73014">Free Hot Dog Truck</a></li><li><a href="https://assetstore.unity.com/publishers/10643">Lugia Games</a> - <a href="https://assetstore.unity.com/packages/3d/characters/humanoids/skeleton-pbr-animated-low-poly-30659">Skeleton - PBR - Animated - Low Poly</a></li><li><a href="https://assetstore.unity.com/publishers/24867">AdvancedSkeleton</a> - <a href="https://assetstore.unity.com/packages/3d/characters/humanoids/barbarian-warrior-75519">Barbarian warrior</a></li><li><a href="https://assetstore.unity.com/publishers/3415">Explosive</a> - <a href="https://assetstore.unity.com/packages/3d/animations/fighter-pack-bundle-free-36286">Fighter Pack Bundle FREE</a></li><li><a href="https://assetstore.unity.com/publishers/29130">Myxerman</a> - <a href="https://assetstore.unity.com/packages/3d/vehicles/land/simple-cars-pack-97669">Simple Cars Pack</a></li></ul>
+    </div>
+  </div>
