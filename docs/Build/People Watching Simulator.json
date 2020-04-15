@@ -1,0 +1,16 @@
+{
+"companyName": "Adorkable",
+"productName": "People Watching Simulator",
+"productVersion": "0.1",
+"dataUrl": "People Watching Simulator.data.unityweb",
+"wasmCodeUrl": "People Watching Simulator.wasm.code.unityweb",
+"wasmFrameworkUrl": "People Watching Simulator.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#7D2F80",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.9f1"
+}
